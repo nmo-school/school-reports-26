@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>بوابة التقارير المدرسية</title>
+  <title>بوابة التقارير</title>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet">
   <style>
     :root{ --bg:#f6f9f7; --card:#ffffff; --ink:#0f172a; --muted:#64748b; --brand:#006C35; --line:#e0efe7; --accent:#009879; --radius:14px; }
@@ -44,7 +44,7 @@
 
   <main class="page">
     <section class="card">
-      <h2 style="margin:0 0 20px; color:#064e2d; font-size:24px">بيانات التقرير المدرسي</h2>
+      <h2 style="margin:0 0 20px; color:#064e2d; font-size:24px">بيانات التقرير </h2>
       
       <div class="grid">
         <div><label>اسم البرنامج</label><input type="text" id="program"></div>
@@ -238,7 +238,7 @@
             <div style="height:120px; background:linear-gradient(90deg,#0f7a46,#099169); border-radius:12px; margin-bottom:20px; overflow:hidden">
               ${heroUrl ? `<img src="${heroUrl}" style="width:100%; height:100%; object-fit:cover">` : ''}
             </div>
-            <h1 style="text-align:center; color:#0b5c35; margin:0 0 30px; font-size:28px">تقرير برنامج مدرسي</h1>
+            <h1 style="text-align:center; color:#0b5c35; margin:0 0 30px; font-size:28px">تقرير برنامج </h1>
             
             <div style="font-size:18px; line-height:2">
               <p><strong>اسم البرنامج:</strong> ${program.value.trim()}</p>
@@ -270,7 +270,7 @@
             </div>
 
             <div style="margin-top:50px; text-align:center; color:#666; font-size:14px; border-top:1px solid #eee; padding-top:15px">
-              تم إنشاء التقرير بواسطة نظام التقارير المدرسية<br>
+              تصميم وتطوير: أ/ نفال النفيعي <br>
               التاريخ: ${new Date().toLocaleDateString('ar-SA')}
             </div>
           </div>
@@ -317,4 +317,5 @@
     });
   </script>
 </body>
+
 </html>
